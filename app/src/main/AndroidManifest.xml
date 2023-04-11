@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.binimoy">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+android:icon="@mipmap/binimoy"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Binimoy"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="m">
+
+        <activity android:name=".developer" />
+    <activity android:name=".Display_ARB" />
+    <activity android:name=".Seller_AddPost_ARB" />
+    <activity android:name=".ViewActivity" />
+    <activity android:name=".BuyerHomePage" />
+    <activity android:name=".BuyerLogin" />
+    <activity android:name=".Display" />
+    <activity android:name=".Seller_AddPost" />
+    <activity android:name=".Seller_Profile" />
+    <activity android:name=".SellerHomePage" />
+    <activity android:name=".BinimoyHomePage" />
+    <activity android:name=".BuyerSignUpPage" />
+    <activity android:name=".SellerSignUpPage" />
+    <activity android:name=".Login" />
+    <activity android:name=".SignUpPage" />
+    <activity android:name=".PleaseVerifyAndLogin" />
+    <activity android:name=".LoginPage" />
+    <activity android:name=".HomePage" />
+
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

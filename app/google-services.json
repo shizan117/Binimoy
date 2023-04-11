@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "731528312775",
+    "project_id": "binimoy-1a4f9",
+    "storage_bucket": "binimoy-1a4f9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:731528312775:android:2b39d313241c06d4a40be2",
+        "android_client_info": {
+          "package_name": "com.example.binimoy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "731528312775-h5inabflk2f39mpgehfavejvsef3cluk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.binimoy",
+            "certificate_hash": "bcedf5e1c8b70a3416e76b0da977fa9f28af4c3f"
+          }
+        },
+        {
+          "client_id": "731528312775-jjcbdka3gbnmvqt6rfq4g12usqd853et.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJHrHK57IEQqSxgPRimdcuYPtNnavssgc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "731528312775-jjcbdka3gbnmvqt6rfq4g12usqd853et.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
